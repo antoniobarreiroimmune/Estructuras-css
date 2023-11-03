@@ -1,0 +1,48 @@
+@media(max-width: 600px) {
+    .miriam {
+        width: 100%;
+        height: auto;
+        background-color: red;
+        font-size: 11px;
+    }
+
+    .antonio {
+        width: 100%;
+        height: auto;
+        background-color: red;
+        font-size: 11px;
+    }
+
+}
+
+@media(min-width:600px)and (max-width:800px) {
+    .miriam {
+        width: 60%;
+        height: auto;
+        background-color: green;
+        font-size: 12px;
+    }
+
+    .antonio {
+        width: 30%;
+        height: auto;
+        background-color: blue;
+        font-size: 12px;
+    }
+}
+
+@media(min-width:800px) {
+    .miriam {
+        width: 80%;
+        height: auto;
+        background-color: violet;
+        font-size: 14px;
+    }
+
+    .antonio {
+        width: 15%;
+        height: auto;
+        background-color: yellow;
+        font-size: 14px;
+    }
+}
